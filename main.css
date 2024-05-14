@@ -129,6 +129,7 @@ nav .fa{
 }
 /*------service------*/
 .service{
+    color:black;
     width: 80%;
     margin: auto;
     text-align: center;
