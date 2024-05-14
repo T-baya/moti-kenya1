@@ -95,7 +95,7 @@ nav .fa{
     
 }
 
-@media(max-width:800px){
+@media(max-width:1600px){
     .text-box h1{
         font-size: 20px;
     }
@@ -129,11 +129,11 @@ nav .fa{
 }
 /*------service------*/
 .service{
-    color:black;
     width: 80%;
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    color:black;
 
 }
 h1{
