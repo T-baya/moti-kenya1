@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"content="with=device-width,initital-scale=1.0">
+        <title>timothy baya mwaro</title>
+        <link rel="stylesheet" href="main.css">
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+        <body>
+            <section class="header">
+                <nav>
+                    <a href="index.html">Timothy.</a>
+                    <div class="nav-links"id="navLinks">
+                        <i class="fa fa-times"onclick="hideMenu()"></i>
+                        <ul>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="index2.html">ABOUT</a></li>
+                            <li><a href="index3.html">CONTACT</a></li>
+                            <li><a href="index4.html">SERVICE</a></li>
+                            <li><a href="index5.html">NEWS</a></li>
+
+
+                            </li>
+                        </ul>
+                    </div>
+                    <i class="fa fa-bars"onclick="showMenu()"></i>
+                </nav>
+                <div class="text-box">
+                    <h1>WELCOME TO MY SITE </h1>
+                    <P>here we change the world with technology</P>
+                    <a href=""class="hero-btn">visit me to know more</a>
+                </div>
+
+            </section>
+                        <!------javascript------->
+                        <script>
+                            var navLinks=document.getElementById("navLinks");
+                            function showMenu(){
+                                navLinks.style.right="0";
+                            }
+                            function hideMenu(){
+                                navLinks.style.right="-200px";
+                            }
+                        </script>
+                        <setion class="footer">
+                            <h4>About me</h4>
+                            <p>This Is A Pratical Site Still Undeveloped</p>
+                            <div class="icon">
+                                <i class="fa fa-facebook"></i>
+                                <i class="fa fa-twitter"></i>
+                                <i class="fa fa-instagram"></i>
+                                <i class="fa fa-whatsapp"></i>
+                                <i class="fa fa-linkedin"></i>
+            
+            
+            
+            
+                            </div>
+                            <p>made with <i class="fa fa-heart-o"></i>Moti.Baya</p>
+            
+                        </setion>
+            
+                    </body>
+                
+            </html>
